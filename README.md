@@ -19,4 +19,4 @@ https://github.com/ashleychilders/hw_javascript_childers_ashley.git
 
 2.) This assignment was a great refresher/learning experience.
 
-3.) I noticed in the commits from the git homework it wasn't necessary to add the file location for where I updated items. I read this after making most of my commits for this homework and some have this included. 
+3.) I noticed in the commits from the git homework it wasn't necessary to add the file location for where I updated items. I read this after making most of my commits for this homework and some have this included.
