@@ -15,6 +15,5 @@ var presidents = [
     { firstName: 'Ronald', lastName: 'Reagan', termLength: 2,
      party: 'republican', yearsofPresidency: 8 }
 
-console.log( presidents[2]firstName + lastName);
-
-] ;
+];
+console.log( presidents [ 2 ].firstName, presidents [ 2 ].lastName );
