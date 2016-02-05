@@ -10,7 +10,8 @@ https://github.com/ashleychilders/hw_javascript_childers_ashley.git
 	- I used this site as a review on how to format functions properly.
 - Daniel Cohen
 	- My fiancé is in cyber security and I asked for his expertise in explaining two areas I had questions about.
-
+- https://help.github.com/articles/caching-your-github-password-in-git/
+    - I ran into some trouble with entering my password in the terminal and had to use this to figure out to set up everything properly. 
 
 **Comments**
 
