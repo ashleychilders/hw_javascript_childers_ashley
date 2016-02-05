@@ -6,11 +6,11 @@ var iceCream = [
 var presidents = [
     { firstName: 'Barack', lastName: 'Obama', termLength: 2,
         party: 'democrat', yearsofPresidency: 7 },
-    { firstName: 'George W', lastName: 'Bush', termLength: 2,
+    { firstName: 'George W.', lastName: 'Bush', termLength: 2,
         party: 'republican', yearsofPresidency: 8 },
     { firstName: 'Bill', lastName: 'Clinton', termLength: 2,
         party: 'democrat', yearsofPresidency: 8 },
-    { firstName: 'George H', lastName: 'Bush', termLength: 1,
+    { firstName: 'George H.', lastName: 'Bush', termLength: 1,
         party: 'republican', yearsofPresidency: 4 },
     { firstName: 'Ronald', lastName: 'Reagan', termLength: 2,
      party: 'republican', yearsofPresidency: 8 }
@@ -39,3 +39,14 @@ var numba = function( string ) {
 numba( '7' );
 numba( 'seventy' );
 numba( 'university' );
+
+//function
+function inception( callback, value ) {
+    callback( value );
+}
+
+var caller = function( value ) {
+    console.log( value + ' is a fantastic movie.' );
+};
+
+inception( caller, 'The Wizard of Oz' );
