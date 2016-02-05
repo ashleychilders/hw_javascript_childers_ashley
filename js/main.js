@@ -23,3 +23,19 @@ function howdy( name, greeting ) {
 }
 var message = howdy( 'Ashley Childers', 'Hello from DC!' );
 console.log( message );
+
+// function expression
+var numba = function( string ) {
+    if ( string.length < 7 ) {
+        console.log( 'What a short little word!' );
+    }
+    if ( string.length > 7 ) {
+        console.log( 'I am sorry, but that is too many to count.' );
+    }
+    if ( string.length == 7 ) {
+        console.log( '7, what a perfect choice!' );
+    }
+} ;
+numba( '7' );
+numba( 'seventy' );
+numba( 'university' );
