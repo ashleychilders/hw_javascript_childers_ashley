@@ -17,3 +17,9 @@ var presidents = [
 
 ];
 console.log( presidents [ 2 ].firstName, presidents [ 2 ].lastName );
+
+function howdy( name, greeting ) {
+    return name + ' says ' + greeting;
+}
+var message = howdy( 'Ashley Childers' , 'Hello from DC!' );
+console.log( message );
